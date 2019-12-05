@@ -1,0 +1,48 @@
+﻿@model IEnumerable<RoverHistory> 
+@{
+    ViewData["Title"] = "History";
+}
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 data-container">
+            <h2 class="text-white">History of all Mars Rover Movement</h2>
+        </div>
+        <div class="form-style-5 col-xs-12">
+            <table id="historyTable" class="table table-sm table-striped">
+                <thead>
+                    <tr>
+                        <th>Date of Request</th>
+                        <th>Grid Coordinates</th>
+                        <th>Rover Coordinates</th>
+                        <th>Rover Orientation</th>
+                        <th>Movement Intructions</th>
+                        <th>Final Rover Coordinates</th>
+                        <th>Final Rover Orientation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (RoverHistory m in Model)
+                    {
+                        <tr>
+                            <td>@m.DateOfRequest.ToShortDateString() @m.DateOfRequest.ToShortTimeString()</td>
+                            <td>@m.MaxCoordinatesX @m.MaxCoordinatesY</td>
+                            <td>@m.RoverCoordinatesX @m.RoverCoordinatesY</td>
+                            <td>@m.RoverOrientation</td>
+                            <td>@m.MovementIntructions</td>
+                            <td>@m.FinalRoverCoordinatesX @m.FinalRoverCoordinatesY</td>
+                            <td>@m.FinalRoverOrientation</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        </div>
+@section Scripts{ 
+<script>
+    $(document).ready(function() {
+        $('#historyTable').DataTable({
+            "order": [[ 0, "desc" ]]
+        });
+} );
+</script>
+}

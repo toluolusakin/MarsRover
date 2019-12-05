@@ -1,0 +1,262 @@
+2019-12-03 16:16:36.009 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 16:16:36.030 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 16:16:36.056 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 16:16:36.057 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 16:16:36.292 +01:00 [Information] Request finished in 266.71270000000004ms 200 text/html;charset=utf-8
+2019-12-03 16:16:36.833 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 16:16:36.952 +01:00 [Information] Request finished in 119.8952ms 200 application/json;charset=utf-8
+2019-12-03 16:16:40.479 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover application/json 238
+2019-12-03 16:16:40.519 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 16:16:40.549 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 16:16:40.619 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-03 16:16:40.640 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 81.5467ms
+2019-12-03 16:16:40.640 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 16:16:40.645 +01:00 [Information] Request finished in 166.6574ms 200 application/json; charset=utf-8
+2019-12-03 16:18:40.381 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 16:18:40.411 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover application/json 238
+2019-12-03 16:18:40.450 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 16:18:40.452 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 16:18:40.560 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 16:18:40.624 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 16:18:40.782 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-03 16:18:40.813 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 174.7902ms
+2019-12-03 16:18:40.814 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 16:18:40.835 +01:00 [Information] Request finished in 433.5916ms 200 application/json; charset=utf-8
+2019-12-03 16:19:34.224 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 16:19:34.241 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover application/json 238
+2019-12-03 16:19:34.257 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 16:19:34.257 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 16:19:34.313 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 16:19:34.343 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 16:19:34.410 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-03 16:19:34.429 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 78.7929ms
+2019-12-03 16:19:34.430 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 16:19:34.447 +01:00 [Information] Request finished in 209.0798ms 200 application/json; charset=utf-8
+2019-12-03 17:38:58.340 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 17:38:58.370 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 17:38:58.399 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 17:38:58.401 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 17:38:58.628 +01:00 [Information] Request finished in 265.0425ms 200 text/html;charset=utf-8
+2019-12-03 17:38:59.225 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 17:38:59.266 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "POST" & path "v1/MarsRover" overloaded by actions - MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api),MarsRover.Api.Controllers.MarsRoverController.SavePlateauImage (MarsRover.Api). Actions require unique method/path combination for OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-12-03 17:38:59.347 +01:00 [Information] Request finished in 123.77430000000001ms 500 text/plain
+2019-12-03 17:40:01.112 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 17:40:01.132 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 17:40:01.148 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 17:40:01.149 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 17:40:01.365 +01:00 [Information] Request finished in 237.84740000000002ms 200 text/html;charset=utf-8
+2019-12-03 17:40:01.890 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 17:40:01.904 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/favicon-32x32.png  
+2019-12-03 17:40:01.923 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "POST" & path "v1/MarsRover" overloaded by actions - MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api),MarsRover.Api.Controllers.MarsRoverController.SavePlateauImage (MarsRover.Api). Actions require unique method/path combination for OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-12-03 17:40:01.923 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-12-03 17:40:01.943 +01:00 [Information] Request finished in 39.3221ms 200 image/png
+2019-12-03 17:40:01.949 +01:00 [Information] Request finished in 59.926ms 500 text/plain
+2019-12-03 17:40:43.178 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 17:40:43.203 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 17:40:43.218 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 17:40:43.219 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 17:40:43.444 +01:00 [Information] Request finished in 245.4318ms 200 text/html;charset=utf-8
+2019-12-03 17:40:43.916 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 17:40:43.925 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/favicon-32x32.png  
+2019-12-03 17:40:43.940 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-12-03 17:40:43.940 +01:00 [Information] Request finished in 15.762400000000001ms 200 image/png
+2019-12-03 17:40:44.017 +01:00 [Information] Request finished in 100.8675ms 200 application/json;charset=utf-8
+2019-12-03 17:41:18.462 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 17:41:18.486 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 17:41:18.505 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 17:41:18.507 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 17:41:18.704 +01:00 [Information] Request finished in 225.8236ms 200 text/html;charset=utf-8
+2019-12-03 17:41:19.243 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 17:41:19.251 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/favicon-32x32.png  
+2019-12-03 17:41:19.268 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-12-03 17:41:19.268 +01:00 [Information] Request finished in 16.9936ms 200 image/png
+2019-12-03 17:41:19.272 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "POST" & path "v1/MarsRover" overloaded by actions - MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api),MarsRover.Api.Controllers.MarsRoverController.SavePlateauImage (MarsRover.Api). Actions require unique method/path combination for OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-12-03 17:41:19.297 +01:00 [Information] Request finished in 54.7109ms 500 text/plain
+2019-12-03 17:47:25.448 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 17:47:25.459 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 17:47:25.468 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 17:47:25.468 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 17:47:25.582 +01:00 [Information] Request finished in 125.3473ms 200 text/html;charset=utf-8
+2019-12-03 17:47:25.864 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 17:47:25.870 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/favicon-32x32.png  
+2019-12-03 17:47:25.884 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "POST" & path "v1/MarsRover" overloaded by actions - MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api),MarsRover.Api.Controllers.MarsRoverController.SavePlateauImage (MarsRover.Api). Actions require unique method/path combination for OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-12-03 17:47:25.885 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-12-03 17:47:25.897 +01:00 [Information] Request finished in 27.1107ms 200 image/png
+2019-12-03 17:47:25.900 +01:00 [Information] Request finished in 36.2481ms 500 text/plain
+2019-12-03 17:48:23.973 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 17:48:24.029 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 17:48:24.037 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 17:48:24.037 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 17:48:24.201 +01:00 [Information] Request finished in 185.93810000000002ms 200 text/html;charset=utf-8
+2019-12-03 17:48:24.539 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 17:48:24.555 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: HTTP method "POST" & path "v1/MarsRover" overloaded by actions - MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api),MarsRover.Api.Controllers.MarsRoverController.SavePlateauImage (MarsRover.Api). Actions require unique method/path combination for OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-12-03 17:48:24.617 +01:00 [Information] Request finished in 78.3379ms 500 text/plain
+2019-12-03 17:55:07.181 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 17:55:07.192 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 17:55:07.203 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 17:55:07.203 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 17:55:07.325 +01:00 [Information] Request finished in 135.4146ms 200 text/html;charset=utf-8
+2019-12-03 17:55:07.328 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 17:55:07.329 +01:00 [Information] Request finished in 0.8677ms 200 text/html;charset=utf-8
+2019-12-03 17:55:07.673 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 17:55:07.744 +01:00 [Information] Request finished in 71.4933ms 200 application/json;charset=utf-8
+2019-12-03 17:55:08.472 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 17:55:08.476 +01:00 [Information] Request finished in 4.5946ms 200 application/json;charset=utf-8
+2019-12-03 17:55:08.534 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/favicon-32x32.png  
+2019-12-03 17:55:08.543 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-12-03 17:55:08.543 +01:00 [Information] Request finished in 9.1836ms 200 image/png
+2019-12-03 17:58:04.259 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 17:58:04.270 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 17:58:04.280 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 17:58:04.280 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 17:58:04.397 +01:00 [Information] Request finished in 129.9332ms 200 text/html;charset=utf-8
+2019-12-03 17:58:04.692 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 17:58:04.698 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/favicon-32x32.png  
+2019-12-03 17:58:04.710 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-12-03 17:58:04.710 +01:00 [Information] Request finished in 11.642800000000001ms 200 image/png
+2019-12-03 17:58:04.758 +01:00 [Information] Request finished in 66.6617ms 200 application/json;charset=utf-8
+2019-12-03 17:58:44.641 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 17:58:44.652 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 17:58:44.662 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 17:58:44.663 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 17:58:44.781 +01:00 [Information] Request finished in 131.2872ms 200 text/html;charset=utf-8
+2019-12-03 17:58:45.057 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 17:58:45.066 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/favicon-32x32.png  
+2019-12-03 17:58:45.080 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-12-03 17:58:45.080 +01:00 [Information] Request finished in 13.8939ms 200 image/png
+2019-12-03 17:58:45.128 +01:00 [Information] Request finished in 71.67060000000001ms 200 application/json;charset=utf-8
+2019-12-03 18:00:44.124 +01:00 [Information] Application is shutting down...
+2019-12-03 18:12:08.541 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 18:12:08.585 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 18:12:08.595 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 18:12:08.595 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 18:12:08.764 +01:00 [Information] Request finished in 193.59900000000002ms 200 text/html;charset=utf-8
+2019-12-03 18:12:09.110 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 18:12:09.182 +01:00 [Information] Request finished in 73.0828ms 200 application/json;charset=utf-8
+2019-12-03 18:12:16.362 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-03 18:12:16.403 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 18:12:16.433 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 18:12:16.542 +01:00 [Information] Executing action method "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" - Validation state: Valid
+2019-12-03 18:15:30.011 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 18:15:30.048 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 18:15:30.057 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 18:15:30.057 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 18:15:30.240 +01:00 [Information] Request finished in 198.1309ms 200 text/html;charset=utf-8
+2019-12-03 18:15:30.594 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 18:15:30.668 +01:00 [Information] Request finished in 74.5566ms 200 application/json;charset=utf-8
+2019-12-03 18:15:34.058 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-03 18:15:34.086 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 18:15:34.109 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 18:15:34.224 +01:00 [Information] Executing action method "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" - Validation state: Valid
+2019-12-03 18:23:18.124 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 18:23:18.165 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 18:23:18.173 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 18:23:18.173 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 18:23:18.384 +01:00 [Information] Request finished in 232.63590000000002ms 200 text/html;charset=utf-8
+2019-12-03 18:23:18.769 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 18:23:18.873 +01:00 [Information] Request finished in 104.58670000000001ms 200 application/json;charset=utf-8
+2019-12-03 18:23:21.465 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-03 18:23:21.493 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 18:23:21.514 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 18:23:21.622 +01:00 [Information] Executing action method "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" - Validation state: Valid
+2019-12-03 18:28:50.724 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 18:28:50.764 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 18:28:50.773 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 18:28:50.773 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 18:28:50.940 +01:00 [Information] Request finished in 187.0762ms 200 text/html;charset=utf-8
+2019-12-03 18:28:51.282 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 18:28:51.363 +01:00 [Information] Request finished in 81.17660000000001ms 200 application/json;charset=utf-8
+2019-12-03 18:29:03.447 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-03 18:29:03.482 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 18:29:03.504 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 18:29:03.608 +01:00 [Information] Executing action method "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" - Validation state: Valid
+2019-12-03 18:41:19.812 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 18:41:19.854 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 18:41:19.862 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 18:41:19.862 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 18:41:20.062 +01:00 [Information] Request finished in 220.389ms 200 text/html;charset=utf-8
+2019-12-03 18:41:20.426 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 18:41:20.502 +01:00 [Information] Request finished in 76.5172ms 200 application/json;charset=utf-8
+2019-12-03 18:41:25.359 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-03 18:41:25.396 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 18:41:25.420 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 18:41:25.524 +01:00 [Information] Executing action method "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" - Validation state: Valid
+2019-12-03 18:58:24.920 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 18:58:24.960 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 18:58:24.966 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 18:58:24.967 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 18:58:25.166 +01:00 [Information] Request finished in 214.3767ms 200 text/html;charset=utf-8
+2019-12-03 18:58:25.495 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 18:58:25.586 +01:00 [Information] Request finished in 90.59ms 200 application/json;charset=utf-8
+2019-12-03 18:58:34.580 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-03 18:58:34.614 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 18:58:34.635 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 18:58:34.745 +01:00 [Information] Executing action method "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" - Validation state: Valid
+2019-12-03 19:02:01.267 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 19:02:01.294 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 19:02:01.318 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 19:02:01.318 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 19:02:01.498 +01:00 [Information] Request finished in 205.7004ms 200 text/html;charset=utf-8
+2019-12-03 19:02:01.856 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 19:02:01.936 +01:00 [Information] Request finished in 81.17190000000001ms 200 application/json;charset=utf-8
+2019-12-03 19:02:03.442 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-03 19:02:03.469 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 19:02:03.493 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 19:02:03.599 +01:00 [Information] Executing action method "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" - Validation state: Valid
+2019-12-03 19:03:48.123 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 19:03:48.163 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 19:03:48.170 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 19:03:48.171 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 19:03:48.354 +01:00 [Information] Request finished in 204.8903ms 200 text/html;charset=utf-8
+2019-12-03 19:03:48.705 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 19:03:48.785 +01:00 [Information] Request finished in 80.4291ms 200 application/json;charset=utf-8
+2019-12-03 19:04:10.428 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-03 19:04:10.466 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 19:04:10.494 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 19:04:10.597 +01:00 [Information] Executing action method "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" - Validation state: Valid
+2019-12-03 19:15:42.892 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-03 19:15:42.931 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-03 19:15:42.939 +01:00 [Information] Hosting environment: "Development"
+2019-12-03 19:15:42.939 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-03 19:15:43.123 +01:00 [Information] Request finished in 205.23930000000001ms 200 text/html;charset=utf-8
+2019-12-03 19:15:43.444 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-03 19:15:43.519 +01:00 [Information] Request finished in 75.00580000000001ms 200 application/json;charset=utf-8
+2019-12-03 19:16:34.222 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-03 19:16:34.257 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 19:16:34.286 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-03 19:16:34.390 +01:00 [Information] Executing action method "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" - Validation state: Valid
+2019-12-03 19:16:55.051 +01:00 [Information] Executed action method "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 20655.8123ms.
+2019-12-03 19:16:55.055 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-03 19:16:55.065 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 20775.0887ms
+2019-12-03 19:16:55.065 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-03 19:16:57.341 +01:00 [Information] Request finished in 23118.9057ms 200 application/json; charset=utf-8

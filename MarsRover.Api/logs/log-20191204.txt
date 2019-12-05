@@ -1,0 +1,363 @@
+2019-12-04 05:59:02.485 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-04 05:59:02.513 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-04 05:59:02.529 +01:00 [Information] Hosting environment: "Development"
+2019-12-04 05:59:02.530 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-04 05:59:02.769 +01:00 [Information] Request finished in 262.1103ms 200 text/html;charset=utf-8
+2019-12-04 05:59:04.614 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-04 05:59:05.054 +01:00 [Information] Request finished in 440.4486ms 200 application/json;charset=utf-8
+2019-12-04 06:01:10.512 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:01:10.614 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:01:10.722 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:01:10.880 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:01:10.998 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 257.07620000000003ms
+2019-12-04 06:01:10.998 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:01:10.999 +01:00 [Information] Request finished in 487.732ms 200 application/json; charset=utf-8
+2019-12-04 06:01:48.216 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:01:48.219 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:01:48.220 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:01:48.230 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:01:48.231 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 10.6666ms
+2019-12-04 06:01:48.231 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:01:48.231 +01:00 [Information] Request finished in 15.7933ms 200 application/json; charset=utf-8
+2019-12-04 06:05:53.928 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-04 06:05:53.992 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:05:54.048 +01:00 [Information] Hosting environment: "Development"
+2019-12-04 06:05:54.050 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-04 06:05:54.206 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:05:54.316 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:05:54.493 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:05:54.564 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 227.17770000000002ms
+2019-12-04 06:05:54.566 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:05:54.573 +01:00 [Information] Request finished in 594.8299000000001ms 200 application/json; charset=utf-8
+2019-12-04 06:14:30.729 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-04 06:14:30.759 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-04 06:14:30.790 +01:00 [Information] Hosting environment: "Development"
+2019-12-04 06:14:30.793 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-04 06:14:31.198 +01:00 [Information] Request finished in 446.8671ms 200 text/html;charset=utf-8
+2019-12-04 06:14:32.522 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-04 06:14:32.612 +01:00 [Information] Request finished in 90.48100000000001ms 200 application/json;charset=utf-8
+2019-12-04 06:14:50.612 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-04 06:14:50.622 +01:00 [Information] Request finished in 10.389000000000001ms 200 text/html;charset=utf-8
+2019-12-04 06:14:51.292 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-04 06:14:51.303 +01:00 [Information] Request finished in 12.257100000000001ms 200 application/json;charset=utf-8
+2019-12-04 06:14:51.313 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/favicon-32x32.png  
+2019-12-04 06:14:51.338 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-12-04 06:14:51.339 +01:00 [Information] Request finished in 25.8194ms 200 image/png
+2019-12-04 06:14:57.110 +01:00 [Information] Request starting HTTP/2.0 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:14:57.164 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:14:57.222 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:14:57.336 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:14:57.359 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 126.35640000000001ms
+2019-12-04 06:14:57.360 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:14:57.360 +01:00 [Information] Request finished in 250.77130000000002ms 200 application/json; charset=utf-8
+2019-12-04 06:19:18.660 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:19:18.667 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:19:18.669 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:19:18.720 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:19:18.722 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 53.002700000000004ms
+2019-12-04 06:19:18.723 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:19:18.724 +01:00 [Information] Request finished in 64.92110000000001ms 200 application/json; charset=utf-8
+2019-12-04 06:20:48.518 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 145
+2019-12-04 06:20:48.521 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:20:48.523 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:20:48.638 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:20:48.643 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 118.9653ms
+2019-12-04 06:20:48.644 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:20:48.645 +01:00 [Information] Request finished in 127.24520000000001ms 200 application/json; charset=utf-8
+2019-12-04 06:22:42.517 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:22:42.519 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:22:42.520 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:22:42.541 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:22:42.544 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 24.013ms
+2019-12-04 06:22:42.545 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:22:42.546 +01:00 [Information] Request finished in 29.4569ms 200 application/json; charset=utf-8
+2019-12-04 06:22:57.595 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:22:57.596 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:22:57.596 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:22:57.609 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:22:57.610 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 12.9238ms
+2019-12-04 06:22:57.610 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:22:57.610 +01:00 [Information] Request finished in 15.0782ms 200 application/json; charset=utf-8
+2019-12-04 06:23:36.112 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:23:36.113 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:23:36.114 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:23:36.126 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:23:36.127 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 12.2849ms
+2019-12-04 06:23:36.127 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:23:36.127 +01:00 [Information] Request finished in 15.107000000000001ms 200 application/json; charset=utf-8
+2019-12-04 06:24:07.656 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:24:07.657 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:24:07.657 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:24:07.670 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:24:07.670 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 12.9783ms
+2019-12-04 06:24:07.670 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:24:07.671 +01:00 [Information] Request finished in 14.9184ms 200 application/json; charset=utf-8
+2019-12-04 06:24:12.386 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:24:12.387 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:24:12.387 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:24:12.401 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:24:12.402 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 14.804200000000002ms
+2019-12-04 06:24:12.402 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:24:12.402 +01:00 [Information] Request finished in 16.3058ms 200 application/json; charset=utf-8
+2019-12-04 06:24:54.161 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:24:54.162 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:24:54.162 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:24:54.188 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:24:54.189 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 25.953100000000003ms
+2019-12-04 06:24:54.189 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:24:54.190 +01:00 [Information] Request finished in 28.1507ms 200 application/json; charset=utf-8
+2019-12-04 06:25:32.216 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:25:32.216 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:25:32.217 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:25:32.225 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:25:32.225 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 8.535300000000001ms
+2019-12-04 06:25:32.225 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:25:32.226 +01:00 [Information] Request finished in 9.946900000000001ms 200 application/json; charset=utf-8
+2019-12-04 06:26:06.757 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:26:06.757 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:26:06.757 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:26:06.771 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:26:06.772 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 14.7133ms
+2019-12-04 06:26:06.773 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:26:06.773 +01:00 [Information] Request finished in 16.6045ms 200 application/json; charset=utf-8
+2019-12-04 06:26:10.518 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:26:10.518 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:26:10.519 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:26:10.528 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:26:10.529 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 10.7468ms
+2019-12-04 06:26:10.530 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:26:10.530 +01:00 [Information] Request finished in 12.5799ms 200 application/json; charset=utf-8
+2019-12-04 06:26:11.686 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:26:11.686 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:26:11.687 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:26:11.703 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:26:11.704 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 17.3288ms
+2019-12-04 06:26:11.704 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:26:11.705 +01:00 [Information] Request finished in 18.6155ms 200 application/json; charset=utf-8
+2019-12-04 06:26:12.750 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 144
+2019-12-04 06:26:12.750 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:26:12.750 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:26:12.765 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:26:12.766 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 15.9341ms
+2019-12-04 06:26:12.766 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:26:12.767 +01:00 [Information] Request finished in 17.279400000000003ms 200 application/json; charset=utf-8
+2019-12-04 06:26:26.447 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 145
+2019-12-04 06:26:26.448 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:26:26.448 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:26:26.468 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:26:26.469 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 20.567800000000002ms
+2019-12-04 06:26:26.469 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:26:26.469 +01:00 [Information] Request finished in 22.3948ms 200 application/json; charset=utf-8
+2019-12-04 06:27:05.759 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 145
+2019-12-04 06:27:05.760 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:27:05.761 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:27:05.770 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:27:05.771 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 10.2965ms
+2019-12-04 06:27:05.771 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:27:05.771 +01:00 [Information] Request finished in 12.0073ms 200 application/json; charset=utf-8
+2019-12-04 06:27:17.302 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 145
+2019-12-04 06:27:17.303 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:27:17.303 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:27:17.324 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:27:17.325 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 21.8484ms
+2019-12-04 06:27:17.326 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:27:17.326 +01:00 [Information] Request finished in 24.105600000000003ms 200 application/json; charset=utf-8
+2019-12-04 06:27:43.977 +01:00 [Information] Request starting HTTP/1.1 POST https://localhost:44367/v1/MarsRover/MoveRovers application/json 145
+2019-12-04 06:27:43.978 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:27:43.978 +01:00 [Information] Route matched with "{action = \"MoveRovers\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult MoveRovers(MarsRover.Api.Models.MarsRoverRequest)" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 06:27:43.993 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverResponse"'.
+2019-12-04 06:27:43.994 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)" in 15.4556ms
+2019-12-04 06:27:43.994 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.MoveRovers (MarsRover.Api)"'
+2019-12-04 06:27:43.994 +01:00 [Information] Request finished in 16.8656ms 200 application/json; charset=utf-8
+2019-12-04 08:50:46.207 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-04 08:50:46.224 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-04 08:50:46.239 +01:00 [Information] Hosting environment: "Development"
+2019-12-04 08:50:46.240 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-04 08:50:46.541 +01:00 [Information] Request finished in 319.94620000000003ms 200 text/html;charset=utf-8
+2019-12-04 08:50:47.280 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-04 08:50:47.304 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/favicon-32x32.png  
+2019-12-04 08:50:47.321 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-12-04 08:50:47.321 +01:00 [Information] Request finished in 17.1396ms 200 image/png
+2019-12-04 08:50:47.386 +01:00 [Information] Request finished in 107.0742ms 200 application/json;charset=utf-8
+2019-12-04 08:51:12.562 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-04 08:51:12.580 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/index.html  
+2019-12-04 08:51:12.595 +01:00 [Information] Hosting environment: "Development"
+2019-12-04 08:51:12.596 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-04 08:51:12.831 +01:00 [Information] Request finished in 254.88320000000002ms 200 text/html;charset=utf-8
+2019-12-04 08:51:13.523 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/v1/swagger.json  
+2019-12-04 08:51:13.535 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/swagger/favicon-32x32.png  
+2019-12-04 08:51:13.556 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2019-12-04 08:51:13.556 +01:00 [Information] Request finished in 20.958000000000002ms 200 image/png
+2019-12-04 08:51:13.636 +01:00 [Information] Request finished in 113.7667ms 200 application/json;charset=utf-8
+2019-12-04 08:51:33.363 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/v1/MarsRover/GetHistory  
+2019-12-04 08:51:33.414 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 08:51:33.457 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 08:51:33.558 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 08:51:33.629 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 150.3417ms
+2019-12-04 08:51:33.629 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 08:51:33.630 +01:00 [Information] Request finished in 267.5136ms 200 application/json; charset=utf-8
+2019-12-04 09:21:02.321 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:21:02.324 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:21:02.325 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:21:02.330 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:21:02.332 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 6.1254ms
+2019-12-04 09:21:02.332 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:21:02.332 +01:00 [Information] Request finished in 11.664900000000001ms 200 application/json; charset=utf-8
+2019-12-04 09:21:54.637 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:21:54.638 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:21:54.639 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:21:54.642 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:21:54.645 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 5.341ms
+2019-12-04 09:21:54.645 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:21:54.646 +01:00 [Information] Request finished in 8.358ms 200 application/json; charset=utf-8
+2019-12-04 09:23:20.776 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:23:20.777 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:23:20.777 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:23:20.778 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:23:20.779 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 1.6269ms
+2019-12-04 09:23:20.779 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:23:20.779 +01:00 [Information] Request finished in 3.6873ms 200 application/json; charset=utf-8
+2019-12-04 09:24:57.724 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:24:57.725 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:24:57.725 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:24:57.726 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:24:57.727 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 1.8639000000000001ms
+2019-12-04 09:24:57.728 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:24:57.728 +01:00 [Information] Request finished in 4.2553ms 200 application/json; charset=utf-8
+2019-12-04 09:26:06.265 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:26:06.267 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:26:06.268 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:26:06.269 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:26:06.271 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 2.3286000000000002ms
+2019-12-04 09:26:06.271 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:26:06.271 +01:00 [Information] Request finished in 6.1398ms 200 application/json; charset=utf-8
+2019-12-04 09:27:11.571 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:27:11.572 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:27:11.573 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:27:11.574 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:27:11.575 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 1.8074000000000001ms
+2019-12-04 09:27:11.575 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:27:11.575 +01:00 [Information] Request finished in 4.5797ms 200 application/json; charset=utf-8
+2019-12-04 09:27:24.501 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:27:24.504 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:27:24.505 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:27:24.509 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:27:24.511 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 4.922000000000001ms
+2019-12-04 09:27:24.512 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:27:24.512 +01:00 [Information] Request finished in 12.105500000000001ms 200 application/json; charset=utf-8
+2019-12-04 09:36:43.976 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:36:43.978 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:36:43.979 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:36:43.980 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:36:43.981 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 2.2037ms
+2019-12-04 09:36:43.981 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:36:43.982 +01:00 [Information] Request finished in 5.8936ms 200 application/json; charset=utf-8
+2019-12-04 09:38:51.235 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:38:51.236 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:38:51.236 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:38:51.238 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:38:51.239 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 2.8715ms
+2019-12-04 09:38:51.240 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:38:51.240 +01:00 [Information] Request finished in 5.5795ms 200 application/json; charset=utf-8
+2019-12-04 09:40:17.341 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:40:17.342 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:40:17.343 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:40:17.344 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:40:17.346 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 2.9748ms
+2019-12-04 09:40:17.346 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:40:17.347 +01:00 [Information] Request finished in 5.9095ms 200 application/json; charset=utf-8
+2019-12-04 09:40:34.017 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:40:34.017 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:40:34.018 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:40:34.019 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:40:34.020 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 1.9904000000000002ms
+2019-12-04 09:40:34.020 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:40:34.021 +01:00 [Information] Request finished in 4.2219ms 200 application/json; charset=utf-8
+2019-12-04 09:41:24.748 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:41:24.749 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:41:24.749 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:41:24.750 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:41:24.751 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 1.3694000000000002ms
+2019-12-04 09:41:24.751 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:41:24.751 +01:00 [Information] Request finished in 2.9028ms 200 application/json; charset=utf-8
+2019-12-04 09:41:29.183 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:41:29.184 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:41:29.184 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:41:29.186 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:41:29.187 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 2.3970000000000002ms
+2019-12-04 09:41:29.187 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:41:29.187 +01:00 [Information] Request finished in 4.17ms 200 application/json; charset=utf-8
+2019-12-04 09:42:06.574 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:42:06.576 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:42:06.577 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:42:06.579 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:42:06.582 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 5.6191ms
+2019-12-04 09:42:06.583 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:42:06.583 +01:00 [Information] Request finished in 9.4154ms 200 application/json; charset=utf-8
+2019-12-04 09:42:14.631 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:42:14.632 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:42:14.632 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:42:14.633 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:42:14.634 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 1.8027000000000002ms
+2019-12-04 09:42:14.634 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:42:14.634 +01:00 [Information] Request finished in 3.2226000000000004ms 200 application/json; charset=utf-8
+2019-12-04 09:43:21.814 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2019-12-04 09:43:21.845 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/v1/MarsRover/GetHistory  
+2019-12-04 09:43:21.861 +01:00 [Information] Hosting environment: "Development"
+2019-12-04 09:43:21.862 +01:00 [Information] Content root path: "C:\Repos\Personal\MarsRover\MarsRover.Api"
+2019-12-04 09:43:21.927 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:43:21.965 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:43:21.986 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:43:22.036 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 62.482400000000005ms
+2019-12-04 09:43:22.038 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:43:22.041 +01:00 [Information] Request finished in 201.8023ms 200 application/json; charset=utf-8
+2019-12-04 09:43:37.467 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:43:37.472 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:43:37.473 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:43:37.478 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:43:37.479 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 5.8067ms
+2019-12-04 09:43:37.479 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:43:37.480 +01:00 [Information] Request finished in 12.9778ms 200 application/json; charset=utf-8
+2019-12-04 09:43:41.406 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:43:41.408 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:43:41.409 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:43:41.410 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:43:41.411 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 2.1122ms
+2019-12-04 09:43:41.411 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:43:41.412 +01:00 [Information] Request finished in 6.7937ms 200 application/json; charset=utf-8
+2019-12-04 09:43:45.099 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:43:45.101 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:43:45.102 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:43:45.106 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:43:45.109 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 6.2457ms
+2019-12-04 09:43:45.110 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:43:45.110 +01:00 [Information] Request finished in 11.6479ms 200 application/json; charset=utf-8
+2019-12-04 09:43:55.442 +01:00 [Information] Request starting HTTP/2.0 GET https://localhost:44367/v1/MarsRover/GetHistory  
+2019-12-04 09:43:55.443 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:43:55.444 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:43:55.445 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:43:55.446 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 1.9585000000000001ms
+2019-12-04 09:43:55.446 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:43:55.447 +01:00 [Information] Request finished in 4.5509ms 200 application/json; charset=utf-8
+2019-12-04 09:44:57.890 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:44:57.892 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:44:57.893 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:44:57.895 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:44:57.896 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 3.0051ms
+2019-12-04 09:44:57.897 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:44:57.897 +01:00 [Information] Request finished in 7.3982ms 200 application/json; charset=utf-8
+2019-12-04 09:45:35.710 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:45:35.712 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:45:35.713 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:45:35.716 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:45:35.718 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 4.062ms
+2019-12-04 09:45:35.718 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:45:35.719 +01:00 [Information] Request finished in 9.864700000000001ms 200 application/json; charset=utf-8
+2019-12-04 09:46:24.031 +01:00 [Information] Request starting HTTP/1.1 GET https://localhost:44367/v1/MarsRover/GetHistory application/json 0
+2019-12-04 09:46:24.032 +01:00 [Information] Executing endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:46:24.033 +01:00 [Information] Route matched with "{action = \"GetHistory\", controller = \"MarsRover\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetHistory()" on controller "MarsRover.Api.Controllers.MarsRoverController" ("MarsRover.Api").
+2019-12-04 09:46:24.035 +01:00 [Information] Executing ObjectResult, writing value of type '"MarsRover.Api.Models.MarsRoverHistoryResponse"'.
+2019-12-04 09:46:24.036 +01:00 [Information] Executed action "MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)" in 2.4237ms
+2019-12-04 09:46:24.036 +01:00 [Information] Executed endpoint '"MarsRover.Api.Controllers.MarsRoverController.GetHistory (MarsRover.Api)"'
+2019-12-04 09:46:24.037 +01:00 [Information] Request finished in 5.9065ms 200 application/json; charset=utf-8
+2019-12-04 12:59:25.888 +01:00 [Information] Application is shutting down...

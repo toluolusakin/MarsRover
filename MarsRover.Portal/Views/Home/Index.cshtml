@@ -1,0 +1,112 @@
+﻿@model MarsRoverViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 data-container">
+
+        
+
+
+            <h2 class="text-white">Initialise Mars Rover</h2>
+
+            <div class="form-style-5">
+                <form class="needs-validation" novalidate asp-controller="Home" asp-action="Index">
+                    <div>
+                        @Html.ValidationMessage("error")
+                    </div>
+                    
+                    <!-- Zone -->
+                    <fieldset>
+                        <legend><span class="number">1</span> Plateau Zone Boundary</legend>
+                        <input asp-for="MaxCoordinatesX" name="MaxCoordinatesX" type="number" class="form-control" placeholder="X coordinate" title="Coordinate must be a number" required />
+
+                        <div class="invalid-feedback">
+                            X Coordinate must be a number
+                        </div>
+                        <br />
+                        <input asp-for="MaxCoordinatesY" name="MaxCoordinatesY" type="number" class="form-control" placeholder="Y coordinate" title="Coordinate must be a number" required />
+                        <div class="invalid-feedback">
+                            Y Coordinate must be a number
+                        </div>
+                        <br />
+                    </fieldset>
+                    <!-- Position -->
+                    <fieldset>
+                        <legend><span class="number">2</span> Initial Rover Position</legend>
+                        <input asp-for="DeployedRoverX" name="DeployedRoverX" type="number" class="form-control" placeholder="X coordinate" title="Coordinate must be a number" required />
+                        <div class="invalid-feedback">
+                            X Coordinate must be a number
+                        </div>
+                        <br />
+                        <input asp-for="DeployedRoverY" name="DeployedRoverY" type="number" class="form-control" placeholder="Y coordinate" title="Coordinate must be a number" required />
+                        <div class="invalid-feedback">
+                            Y Coordinate must be a number
+                        </div>
+                        <br />
+                        <input asp-for="RoverOrientation" name="RoverOrientation" type="text" class="form-control" pattern="[NESW]{1}" placeholder="Direction (N, E, S, W)" title="Direction must be N, E, S, or W" required />
+                        <div class="invalid-feedback">
+                            Direction must be N, E, S, or W
+                        </div>
+                        <br />
+                    </fieldset>
+                    <!-- Movement -->
+                    <fieldset>
+                        <legend><span class="number">3</span> Move Command</legend>
+                        <input asp-for="MovementInstructions" name="MovementInstructions" type="text" class="form-control" pattern="[MRL]+" placeholder="Move (M, R, L)" title="Move command must be M, R, or L" required />
+                        <div class="invalid-feedback">
+                            Move command must be M, R, or L
+                        </div>
+                        <br />
+                    </fieldset>
+                    <button id="js-move-rover" type="submit" class="btn btn-primary">
+                        Move
+                    </button>
+                </form>
+            </div>
+        
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 data-container">
+
+        <h2 class="text-white">Mars Rover Output</h2>
+
+        <div class="output-box">
+            <span>>...</span>
+            <!-- Output goes here -->
+            @if (Model.FinalPosition.RoverCoordinateX > 0)
+            {
+                <span style="color:#1abc9c;">Direction: @Model.MovementInstructions</span>
+                <i>Final Position: @Model.FinalPosition.RoverCoordinateX, @Model.FinalPosition.RoverCoordinateY  @Model.FinalPosition.RoverOrientation</i>
+            }
+
+        </div>
+
+    </div>
+</div>
+
+@section Scripts{ 
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+    </script>
+
+}
